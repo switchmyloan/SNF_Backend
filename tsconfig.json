@@ -1,0 +1,84 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "commonjs",
+    "lib": ["ES2021"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "noEmit": true,
+    "allowJs": true,
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@config/*": ["src/config/*"],
+      "types/*": ["src/types/*"],
+      "interfaces/*": ["src/interfaces/*"],
+      "utils/*": ["src/utils/*"],
+      "models/*": ["src/models/*"],
+      "controllers/*": ["src/controllers/*"],
+      "interactors/*": ["src/interactors/*"],
+      "repositories/*": ["src/repositories/*"],
+      "container/*": ["src/container/*"],
+      "DTO/*": ["src/DTO/*"]
+    },
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
+
+
+
+
+// {
+//   "compilerOptions": {
+//     /* Language and Environment */
+//     "target": "ES2021",
+//     "module": "commonjs",
+//     "lib": ["ES2021"],
+
+//     /* Decorators */
+//     "experimentalDecorators": true,
+//     "emitDecoratorMetadata": true,
+
+//     /* Strict Type Checking */
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "resolveJsonModule": true,
+//     "forceConsistentCasingInFileNames": true,
+
+//     /* Clean Dev Experience */
+//     "sourceMap": true,
+//     "removeComments": true,
+//     "noEmit": true,                     // ✅ Prevent emitting compiled files
+//     "allowJs": true,                    // Optional: support JS files too
+
+//     /* Paths and Module Resolution */
+//     "baseUrl": "./",
+//     "paths": {
+//       "@src/*": ["src/*"],
+//       "@config/*": ["src/config/*"],
+//       "types/*": ["src/types/*"],
+//       "interfaces/*": ["src/interfaces/*"],
+//       "utils/*": ["src/utils/*"],
+//       "models/*": ["src/models/*"],
+//       "controllers/*": ["src/controllers/*"],
+//       "interactors/*": ["src/interactors/*"],
+//       "repositories/*": ["src/repositories/*"],
+//       "container/*": ["src/container/*"],
+//       "DTO/*": ["src/DTO/*"]
+//     },
+//     "moduleResolution": "node",
+//     "typeRoots": ["./node_modules/@types"],
+//     "types": ["node", "express", "multer"]
+//   },
+//   "include": ["src/**/*.ts"],
+//   "exclude": ["node_modules", "dist"]
+// }
