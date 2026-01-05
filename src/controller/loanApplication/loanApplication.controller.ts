@@ -132,7 +132,7 @@ export class LoanApplicationController {
 
 		res
 			.status(200)
-			.json(new ApiResponse(200, response, 'Application Submitted Successfully'));
+			.json(new ApiResponse(200, lenderResponses, 'Application Submitted Successfully'));
 	}
 
 
