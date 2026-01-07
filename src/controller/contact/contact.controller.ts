@@ -18,9 +18,9 @@ export class ContactController {
 		const data = req.body;
 		const formData = {
 			fullName : data?.fullName,
-			email : data?.emailId,
-			mobile : data?.contactNumber,
-			interest : data?.subject,
+			mobile : data?.mobile,
+			email : data?.email,
+			interest : data?.interestedin,
 			comment : data?.comment,
 			ipAddress: ipAddress
 		}
